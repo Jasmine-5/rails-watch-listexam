@@ -49,3 +49,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # my gems
 echo "gem 'rspec-rails', group: [ :test ]"
 echo "gem 'rails-controller-testing', group: [ :test ]"
+gem 'rspec-rails', group: [ :test ]
+gem 'rails-controller-testing', group: [ :test ]

@@ -35,7 +35,7 @@ movies["results"].take(20).each do |m|
   movie = Movie.new(
     title: m["original_title"].capitalize,
     overview: m["overview"].capitalize,
-    poster_url: m["poster_path"],
+    post_url: m["poster_path"],
     rating: m["vote_average"]
   )
   movie.save
